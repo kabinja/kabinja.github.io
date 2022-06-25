@@ -3,6 +3,10 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import Paper from '../components/paper.js'
 
+import kdd2020 from '../pdf/kdd2020.pdf'
+import fse2019 from '../pdf/fse2019.pdf'
+import issta2019 from '../pdf/issta2019.pdf'
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -132,8 +136,22 @@ class Main extends React.Component {
             title="Data-Driven Simulation and Optimization for Covid-19 Exit Strategies"
             authors={["Salah Ghamizi", "Renaud Rwemalika", "Maxime Cordy", "Lisa Veiber", "Tegawendé F. Bissyandé", "Mike Papadakis", "Jacques Klein", "Yves Le Traon"]}
             year={2020}
-            venue="Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining"
-            link="https://mpapad.github.io/publications/pdfs/ICSE22___Flakime.pdf"
+            venue="Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            link={kdd2020}
+          />
+          <Paper
+            title="The Importance of Accounting for Real-World Labelling When Predicting Software Vulnerabilities"
+            authors={["Matthieu Jimenez", "Renaud Rwemalika", "Mike Papadakis", "Federica Sarro", "Yves Le Traon", "Mark Harman"]}
+            year={2019}
+            venue="Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+            link={fse2019}
+          />
+          <Paper
+            title="Ukwikora: Continuous Inspection for Keyword-Driven Testing"
+            authors={["Renaud Rwemalika", "Marinos Kintis", "Mike Papadakis", "Yves Le Traon", "Pierre Lorrach"]}
+            year={2019}
+            venue="Proceedings of the 28th ACM SIGSOFT International Symposium on Software Testing and Analysis"
+            link={issta2019}
           />
           {close}
         </article>
