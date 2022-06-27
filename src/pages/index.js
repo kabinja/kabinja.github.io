@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 
 import Header from '../components/Header'
-import Main from '../components/Main'
+import Articles from '../components/Articles'
 import Footer from '../components/Footer'
 
 class IndexPage extends React.Component {
@@ -95,7 +95,7 @@ class IndexPage extends React.Component {
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
-            <Main
+            <Articles
               isArticleVisible={this.state.isArticleVisible}
               timeout={this.state.timeout}
               articleTimeout={this.state.articleTimeout}
