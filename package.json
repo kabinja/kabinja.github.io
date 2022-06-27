@@ -29,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
