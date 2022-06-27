@@ -5,7 +5,7 @@ const Paper = (props) => {
     let authors = props.authors.reduce((a,b) => a + ', ' + b)
     return (
     <p>
-        <a href={props.link} className="icon fa-download">  </a><b>{props.title}</b>. <i>{authors}</i>. {props.year}. {props.venue}.
+        <a href={props.link} className="icon fa-download" target="_blank" rel="noreferrer">  </a><b>{props.title}</b>. <i>{authors}</i>. {props.year}. {props.venue}.
     </p>
 )}
 
