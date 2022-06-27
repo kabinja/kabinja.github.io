@@ -43,7 +43,7 @@ class Main extends React.Component {
               <h3 className="vertical-timeline-element-title">Research Associate</h3>
               <i className="vertical-timeline-element-subtitle">University of Luxembourg</i>
               <p>
-                Research in the field of AI for Sofware Engineering; Development of software solutions for our industrial partners; Supervise Ph.D Student.
+                Research in the field of AI for Sofware Engineering; Development of software solutions for our industrial partners; Deployment of Machine Learning pipeline; Supervise Ph.D Student.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

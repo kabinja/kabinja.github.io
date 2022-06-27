@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Project = (props) => {
     return (
     <p>
-        <a href={props.link} className="icon fa-github">  </a><h1>{props.title}</h1>
+        <h3><a href={props.link} className="icon fa-github"></a>{props.title}</h3>
         <p>{props.description}</p>
     </p>
 )}

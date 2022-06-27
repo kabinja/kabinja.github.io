@@ -9,7 +9,7 @@ const Header = props => (
       <div className="inner">
         <h1>Renaud Rwemalika Ph.D.</h1>
         <p>
-        Living in a world where the complexiy of systems is always incresing while they rely on more and more on data, the most exciting challenge of our generation is to build the tools to support those advancement. This is why I have dedicated my carrier on complex systems quality and data engineering.
+        Passionate about Software Engineering, I have dedicated my carrier on the design, development and analysis of complex data-driven systems. As such, I focused my work on AI4SE as well as SE4AI.
         </p>
       </div>
     </div>
